@@ -69,7 +69,8 @@ const ProjectPage =(props)=>{
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" href={"https://github.com/CoderEthio/School-Project-AssembleyLanguage-86xProcesses-TicTocToe-Game"} target="_blank" >see code on github</Button>
+                            <Button size="small" href={"https://github.com/CoderEthio/chu-chu-backend"} target="_blank" >see backend code on github</Button>
+                            <Button size="small" href={"https://github.com/CoderEthio/chu-chu-frontend"} target="_blank" >see frontend code on github</Button>
                         </CardActions>
                     </Card>
                 </Grid>
@@ -165,6 +166,31 @@ const ProjectPage =(props)=>{
                         </CardContent>
                         <CardActions>
                             <Button size="small" href={"https://github.com/CoderEthio/api-call_data-display_picture-api_react"} target="_blank">see code on github</Button>
+                        </CardActions>
+                    </Card>
+                </Grid>
+                <Grid item xs={4}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                        <CardContent>
+                            <Typography className={classes.title} color="textSecondary" gutterBottom>
+                                Frontend web-app
+                            </Typography>
+                            <Typography variant="h5" component="h2" color={"primary"}>
+                                Portfolio site
+                            </Typography>
+                            <Typography className={classes.pos} color="textSecondary">
+                                React, Material UI
+                            </Typography>
+                            <Typography variant="body2" component="p">
+                                It is simple portfolio static site to show of a list
+                                <br/>
+                                of my projects with there github link and
+                                <br/>
+                                linkedin link.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small" href={"https://github.com/CoderEthio/portfolio-ak"} target="_blank">see code on github</Button>
                         </CardActions>
                     </Card>
                 </Grid>
