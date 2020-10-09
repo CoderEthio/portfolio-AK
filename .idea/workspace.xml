@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5225bb30-ee0f-4f43-b42f-243bce1d02cd" name="Default Changelist" comment="">
+    <list default="true" id="5225bb30-ee0f-4f43-b42f-243bce1d02cd" name="Default Changelist" comment="link to portfolio site is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/ProjectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/ProjectPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/landingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/landingPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +112,18 @@
       <workItem from="1600798755698" duration="31192000" />
       <workItem from="1600919037659" duration="1101000" />
       <workItem from="1600920182260" duration="5747000" />
-      <workItem from="1600960901096" duration="444000" />
+      <workItem from="1600960901096" duration="1192000" />
+      <workItem from="1601487057571" duration="2552000" />
+      <workItem from="1602268935061" duration="3934000" />
     </task>
+    <task id="LOCAL-00001" summary="link to portfolio site is added">
+      <created>1600961369971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600961369971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +152,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="link to portfolio site is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="link to portfolio site is added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1092" y="417" key="#ESLint" timestamp="1600810612429">
@@ -178,10 +194,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1459" y="170" key="SettingsEditor/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600810767678" />
-    <state x="-1489" y="353" key="Vcs.Push.Dialog.v2" timestamp="1600919587426">
+    <state x="-1489" y="353" key="Vcs.Push.Dialog.v2" timestamp="1600961425414">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1489" y="353" key="Vcs.Push.Dialog.v2/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600919587426" />
+    <state x="-1489" y="353" key="Vcs.Push.Dialog.v2/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600961425414" />
     <state x="-1276" y="280" key="VcsDiffUtil.ChangesDialog" timestamp="1600924368088">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -190,5 +206,18 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1068" y="217" width="585" height="801" key="find.popup/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600925712681" />
+    <state x="-1242" y="313" key="git4idea.merge.GitPullDialog" timestamp="1600961413738">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1242" y="313" key="git4idea.merge.GitPullDialog/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600961413738" />
+    <state x="274" y="165" key="new project wizard" timestamp="1601489621760">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="-3498" y="208" key="new project wizard/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-3840.0.1920.1050" timestamp="1601489541488" />
+    <state x="274" y="165" key="new project wizard/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@0.0.1536.834" timestamp="1601489621760" />
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602270989605">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1602270989605" />
   </component>
 </project>

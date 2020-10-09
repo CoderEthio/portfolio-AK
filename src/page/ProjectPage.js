@@ -11,6 +11,19 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import auth from '../components/auth'
+import { ThemeProvider } from '@material-ui/styles';
+
+
+import { createMuiTheme } from '@material-ui/core/styles';
+
+
+const theme = createMuiTheme({
+    palette: {
+        primary: {
+            main:'#534E4A',
+        },
+    },
+});
 
 
 const useStyles = makeStyles((theme) => ({
@@ -51,12 +64,12 @@ const ProjectPage =(props)=>{
         return (
             <React.Fragment>
                 <Grid item xs={4} >
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
                                 Full stack web-app
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2" color={"#303030"}>
                                 Information sharing app
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -75,12 +88,12 @@ const ProjectPage =(props)=>{
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
                                Game
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2" color={"#303030"}>
                                 TicTocToe
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -98,12 +111,12 @@ const ProjectPage =(props)=>{
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
                                 Database
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2" color={"#303030"}>
                                 Movies Database
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -124,12 +137,12 @@ const ProjectPage =(props)=>{
                 </Grid>
 
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
                                 Frontend web-app
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2" color={"#303030"}>
                                 Clone of Youtube frontend
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -147,12 +160,12 @@ const ProjectPage =(props)=>{
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
                                 Frontend web-app
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2"color={"#303030"}>
                                 Image Finder
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -170,12 +183,12 @@ const ProjectPage =(props)=>{
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
                                 Frontend web-app
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2" color={"#303030"}>
                                 Portfolio site
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -195,12 +208,12 @@ const ProjectPage =(props)=>{
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
                                 CI/CD
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2" color={"#303030"}>
                                 Docker and kubernetes
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -213,12 +226,12 @@ const ProjectPage =(props)=>{
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
 
                             </Typography>
-                            <Typography variant="h5" component="h2" color={"primary"}>
+                            <Typography variant="h5" component="h2" color={"#303030"}>
                                 Data analysis
                             </Typography>
                             <Typography className={classes.pos} color="textSecondary">
@@ -231,7 +244,7 @@ const ProjectPage =(props)=>{
                     </Card>
                 </Grid>
                 <Grid item xs={4}>
-                    <Card className={classes.bullet} style={{backgroundColor: "#ffffcc"}}>
+                    <Card className={classes.bullet} style={{backgroundColor: "#C4C4C4"}}>
                         <CardContent>
                             <Typography className={classes.title} color="textSecondary" gutterBottom>
 
@@ -255,10 +268,11 @@ const ProjectPage =(props)=>{
 
     return (
         <div>
-            <AppBar position="static" color={'transparent'}>
+            <ThemeProvider theme={theme}>
+            <AppBar position="static" color={"primary"}>
                 <Toolbar>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                    <a href={'https://www.linkedin.com/in/aklom-desta50'} rel="noopener noreferrer" target="_blank"><LinkedInIcon color="primary"  fontSize="large"/> </a>
+                    <a href={'https://www.linkedin.com/in/aklom-desta50'} rel="noopener noreferrer" target="_blank"><LinkedInIcon color="#C4C4C4"  fontSize="large"/> </a>
 
                     </IconButton>
                     <Typography variant="h6" className={classes.titleT}>
@@ -270,13 +284,12 @@ const ProjectPage =(props)=>{
                     }}>Logout</Button>
                 </Toolbar>
             </AppBar>
+            </ThemeProvider>
             <Grid container spacing={1} alignContent={"center"} >
                 <Grid container item xs={12} spacing={3} alignItems={"center"}>
                     <FormRow />
                 </Grid>
             </Grid>
-
-
         </div>
     )
 }

@@ -19,6 +19,7 @@ const useStyle = makeStyles(theme => ({
     },
     text: {
         fontFamily: "Berkshire Swash , cursive",
+        color:"#3A1B0B",
         [theme.breakpoints.down("sm")]: {
             fontSize: 35
         },
@@ -143,7 +144,7 @@ const LandingPage = (props) => {
                             variant="subtitle1"
                             component="h3"
                             className={classes.subtext}
-                            style={{color: "red"}}
+                            style={{color: "#E05E17"}}
                         >
                             Albert Einstein
                         </Typography>
