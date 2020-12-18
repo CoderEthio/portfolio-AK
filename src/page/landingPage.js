@@ -15,7 +15,13 @@ import ArrowDownward from "@material-ui/icons/ArrowDownward";
 
 const useStyle = makeStyles(theme => ({
     root: {
-        paddingTop: 100
+        marginTop: '300px',
+        [theme.breakpoints.up("lg")]:{
+            marginTop: '400px'
+        },
+         [theme.breakpoints.down("lg")]:{
+            marginTop: '300px'
+        }
     },
     text: {
         fontFamily: "Berkshire Swash , cursive",

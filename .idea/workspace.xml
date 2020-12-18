@@ -26,8 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5225bb30-ee0f-4f43-b42f-243bce1d02cd" name="Default Changelist" comment="link to portfolio site is added">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/ProjectPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/ProjectPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/landingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/landingPage.js" afterDir="false" />
     </list>
@@ -53,6 +55,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="JupyterTrust" id="96cf02ab-14a6-4440-8b5a-a9090eb64f33" />
   <component name="ProjectId" id="1hsTMYTgMazje7aCMdWSoQqrbzz" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,6 +67,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -99,6 +103,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,6 +120,7 @@
       <workItem from="1600960901096" duration="1192000" />
       <workItem from="1601487057571" duration="2552000" />
       <workItem from="1602268935061" duration="3934000" />
+      <workItem from="1608304940424" duration="10704000" />
     </task>
     <task id="LOCAL-00001" summary="link to portfolio site is added">
       <created>1600961369971</created>
@@ -127,7 +133,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -174,22 +180,26 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1099" y="428" key="GitRewordDialog/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600924244281" />
-    <state width="1342" height="355" key="GridCell.Tab.0.bottom" timestamp="1600926173970">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1608305155163">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1342" height="355" key="GridCell.Tab.0.bottom/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600926173970" />
-    <state width="1342" height="355" key="GridCell.Tab.0.center" timestamp="1600926173969">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608305155163" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1608305155163">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1342" height="355" key="GridCell.Tab.0.center/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600926173969" />
-    <state width="1342" height="355" key="GridCell.Tab.0.left" timestamp="1600926173969">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608305155163" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1608305155163">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1342" height="355" key="GridCell.Tab.0.left/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600926173969" />
-    <state width="1342" height="355" key="GridCell.Tab.0.right" timestamp="1600926173970">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608305155163" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1608305155163">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1342" height="355" key="GridCell.Tab.0.right/0.0.1536.834/-3840.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1600926173970" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1608305155163" />
     <state x="-1459" y="170" key="SettingsEditor" timestamp="1600810767678">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>

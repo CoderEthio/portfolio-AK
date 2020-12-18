@@ -14,10 +14,11 @@ function App() {
       <BrowserRouter>
             <Switch>
                 <Route path="/" component={LandingPage} exact />
-                <ProtectedRout
+
+                {<ProtectedRout
                     exact
                     path="/projects"
-                    component={ProjectPage}/>
+                    component={ProjectPage}/> }
                   <Route path={"*"} component={()=>"404 NOT FOUND"}/>
             </Switch>
       </BrowserRouter>
